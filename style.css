@@ -1,0 +1,138 @@
+header{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+}
+header>div{
+  width: 30%;
+}
+header>div img{
+  width: 100%;
+  height: auto;
+  display:block;
+  margin-left: auto;
+/* margin-left: :auto;*/
+}
+header>div h1{
+  margin-right: auto;
+}
+.banner{
+  width:96%;
+  margin:0% auto;
+  box-sizing: border-box;
+
+}
+.banner img{
+  width:100%;
+  height:auto;
+}
+.container{
+
+  display:flex;
+  width: 94%;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.containerPro{
+
+  display:flex;
+  width: 94%;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.child1{
+  width: 47%;
+
+}
+.child1 img{
+  width: 100%;
+  height: auto;
+}
+.child2{
+  width: 32.33%;
+
+
+}
+.child2 img
+{
+  width: 100%;
+  height: auto;
+}
+.child3
+ {
+   width: 47%;
+ }
+.child3 img{
+  width:100%;
+  height: auto;
+}
+.child4{
+  width: 23.5%;
+}
+.child4 img{
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width:320px) and (max-width:707px){
+  .containerPro{
+
+    display:flex;
+    width: 94%;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .child4{
+    width: 100%;
+  }
+  .child4 img{
+    width: 100%;
+    height: auto;
+  }
+  header{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  }
+  header>div{
+    width: 30%;
+  }
+  header>div img{
+    width: 100%;
+    height: auto;
+    display:block;
+    margin-left: auto;
+  /* margin-left: :auto;*/
+  }
+  header>div h1{
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .containerPro{
+
+    display:flex;
+    width: 94%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .child4{
+    width: 47%;
+  }
+  .child4 img{
+    width: 100%;
+    height: auto;
+  }
+}
